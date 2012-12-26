@@ -1,4 +1,4 @@
-package com.rokonoid.negetive;
+package com.rokonoid.algorimthms;
 
 import com.rokonoid.utils.Utils;
 import org.junit.Before;
@@ -20,7 +20,7 @@ public class HistogramEqualizationTest {
 
     @Before
     public void setUp() throws Exception {
-        file = new File("/home/bazlur/Desktop/rokon.jpg");
+        file = new File("/home/bazlur/Desktop/70.jpg");
         destination = "/home/bazlur/Desktop/image_processing";
     }
 

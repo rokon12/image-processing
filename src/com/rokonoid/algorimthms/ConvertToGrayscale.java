@@ -1,4 +1,4 @@
-package com.rokonoid.negetive;
+package com.rokonoid.algorimthms;
 
 import com.rokonoid.utils.Utils;
 
