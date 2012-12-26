@@ -39,7 +39,7 @@ public class ConvertToGrayscale {
         return avgGray;
     }
 
-    private static BufferedImage luminosity(BufferedImage original) {
+    public static BufferedImage luminosity(BufferedImage original) {
 
         int alpha, red, green, blue;
         int newPixel;
@@ -70,7 +70,7 @@ public class ConvertToGrayscale {
     }
 
     // The desaturation method
-    private static BufferedImage desaturation(BufferedImage original) {
+    public static BufferedImage desaturation(BufferedImage original) {
 
         int alpha, red, green, blue;
         int newPixel;

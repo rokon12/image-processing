@@ -20,7 +20,7 @@ import java.util.ArrayList;
  * 3. Transform input image to output image
  */
 public class HistogramEqualization {
-    public static ArrayList<int[]> imageHistogram(BufferedImage input) {
+    private static ArrayList<int[]> imageHistogram(BufferedImage input) {
         int[] rh = new int[256];
         int[] gh = new int[256];
         int[] bh = new int[256];
@@ -108,7 +108,7 @@ public class HistogramEqualization {
 
     }
 
-    private static BufferedImage histogramEqualization(BufferedImage original) {
+    public static BufferedImage histogramEqualization(BufferedImage original) {
 
         int red;
         int green;

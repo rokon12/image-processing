@@ -30,7 +30,11 @@ public class Utils {
     }
 
     public static void saveImage(BufferedImage image, String destination) {
-        File file = new File(destination + "/converted");
+        File file = new File(destination + "/converted.png");
+        if (file.exists()) {
+            file = new File(destination + "/converted " + Math.random() + ".png");
+        }
+
         try {
             ImageIO.write(image, "png", file);
         } catch (IOException e) {
