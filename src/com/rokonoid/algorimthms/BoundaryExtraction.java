@@ -9,7 +9,7 @@ import java.io.PrintStream;
 
 import javax.imageio.ImageIO;
 
-public class Morphology {
+public class BoundaryExtraction {
 	static boolean[][] mask = { { false, true, false }, { true, true, true },
 			{ false, true, false } };
 
